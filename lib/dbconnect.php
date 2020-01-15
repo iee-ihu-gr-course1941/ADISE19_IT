@@ -1,9 +1,9 @@
 <?php
 
 $user='root';
-$pass='';
-$host='localhost';
-$db = 'stratego';
+$pass='375564';
+$host='';
+$db = 'stratego_db';
 
 
 if(gethostname()=='users.iee.ihu.gr') {
