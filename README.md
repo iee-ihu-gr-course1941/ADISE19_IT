@@ -26,8 +26,7 @@ Table of Contents
 # Demo Page
 
 Μπορείτε να κατεβάσετε τοπικά ή να επισκευτείτε την σελίδα: 
-https://users.iee.ihu.gr/~asidirop/adise/Lectures-Chess5/
-
+https://users.iee.ihu.gr/~it174894/ADISE19_IT/
 
 
 # Εγκατάσταση
@@ -37,23 +36,6 @@ https://users.iee.ihu.gr/~asidirop/adise/Lectures-Chess5/
 * Apache2
 * Mysql Server
 * php
-
-## Οδηγίες Εγκατάστασης
-
- * Κάντε clone το project σε κάποιον φάκελο <br/>
-  `$ git clone https://github.com/iee-ihu-gr-course1941/Lectures-Chess4.git`
-
- * Βεβαιωθείτε ότι ο φάκελος είναι προσβάσιμος από τον Apache Server. πιθανόν να χρειαστεί να καθορίσετε τις παρακάτω ρυθμίσεις.
-
- * Θα πρέπει να δημιουργήσετε στην Mysql την βάση με όνομα 'adise19_chess5' και να φορτώσετε σε αυτήν την βάση τα δεδομένα από το αρχείο DB/schema5.sql
-
- * Θα πρέπει να φτιάξετε το αρχείο lib/config_local.php το οποίο να περιέχει:
-```
-    <?php
-	$DB_PASS = 'κωδικός';
-	$DB_USER = 'όνομα χρήστη';
-    ?>
-```
 
 # Περιγραφή Παιχνιδιού
 
@@ -73,13 +55,9 @@ https://users.iee.ihu.gr/~asidirop/adise/Lectures-Chess5/
 
 ## Συντελεστές
 
-Περιγράψτε τις αρμοδιότητες της ομάδας.
-
-Προγραμματιστής 1: Jquery
-
-Προγραμματιστής 2: PHP API
-
-Προγραμματιστής 3: Σχεδιασμός mysql
+Μπάμπης Τσαγκαλίδης
+Κωνσταντίνος Πεχλιβανίδης
+Θοδωρής Τράιτσης
 
 # Περιγραφή API
 
