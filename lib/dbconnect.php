@@ -1,4 +1,5 @@
 <?php
+require_once "conf.php";
 
 $user='root';
 $pass='375564';
