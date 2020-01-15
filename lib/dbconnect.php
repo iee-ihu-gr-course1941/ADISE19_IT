@@ -1,5 +1,5 @@
 <?php
-require_once "conf.php";
+
 
 $user='root';
 $pass='375564';
@@ -14,7 +14,7 @@ if(gethostname()=='users.iee.ihu.gr') {
 }
 
 
-$mysqli = new mysqli($host, $user, $pass, $db);
+//$mysqli = new mysqli($host, $user, $pass, $db);
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . 
     $mysqli->connect_errno . ") " . $mysqli->connect_error;
