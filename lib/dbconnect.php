@@ -8,7 +8,7 @@ $db = 'stratego_db';
 
 
 if(gethostname()=='users.iee.ihu.gr') {
-	$mysqli = new mysqli($host, $user, $pass, $db,null,'/home/student/it/2017/it174894/mysql.sock');
+	$mysqli = new mysqli($host, $user, $pass, $db,null,'/home/student/it/2017/it174894/mysql/run/mysql.sock');
 } else {
         $mysqli = new mysqli($host, $user, $pass, $db);
 }
