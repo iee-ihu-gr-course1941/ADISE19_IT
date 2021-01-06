@@ -2,7 +2,7 @@
 
 
 $user='root';
-$pass='375564';
+$pass='';
 $host='';
 $db = 'stratego_db';
 
